@@ -24,7 +24,9 @@ header{
 
     padding: 20px 35px;
     background-color: #39a6b2;
-    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -45,7 +47,7 @@ header a {
 
 header nav{
 
-    float: right;
+    
     margin: 7px 0;
 
 
@@ -155,7 +157,7 @@ section {
 .form-input {
     border: 1px solid #024e76;
     display: block;
-    padding: 7px 15px;
+    
     font-size: 16px;
     color: #024e76;
     width: 100%;
@@ -323,7 +325,7 @@ section {
     }
 
     .contact h2 {
-        color: #024e76;
+        color: #fce138;
     }
     .contact-info iframe {
         width: 400px;
