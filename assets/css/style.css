@@ -24,7 +24,9 @@ header{
 
     padding: 20px 35px;
     background-color: #39a6b2;
-    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
@@ -45,24 +47,26 @@ header a {
 
 header nav{
 
-    float: right;
+    
     margin: 7px 0;
 
 
 }
 
 
-header nav ul li {
-    display: inline;
-
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
-
 
 header nav ul li a {
 
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 
 
 }
@@ -88,13 +92,17 @@ footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
 
 }
 
  footer h2 {
 
     
-    display: inline;
+    
     color: #024e76;
     font-size: 30px;
     margin: 0;
@@ -104,7 +112,7 @@ footer {
 
 footer div {
 
-    float: right;
+    
     line-height: 1.5;
     text-align: right;
 
@@ -155,7 +163,7 @@ section {
 .form-input {
     border: 1px solid #024e76;
     display: block;
-    padding: 7px 15px;
+    
     font-size: 16px;
     color: #024e76;
     width: 100%;
@@ -323,7 +331,7 @@ section {
     }
 
     .contact h2 {
-        color: #024e76;
+        color: #fce138;
     }
     .contact-info iframe {
         width: 400px;
